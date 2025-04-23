@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gallery img {
+  display: block;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.tab-content {
+  margin-top: 10px;
+  padding: 10px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.feedback {
+  color: red;
+  font-size: 0.9rem;
+}
